@@ -1,0 +1,31 @@
+{
+  "name": "newo-agent-builder",
+  "displayName": "Newo Agent Builder",
+  "version": "0.9.9",
+  "description": "Create, configure, develop, test and launch Newo agents through Customer MCP. Develop Python WASM skills and connect external MCP servers.",
+  "author": {
+    "name": "Alex",
+    "email": "support@newo.ai",
+    "url": "https://newo.ai"
+  },
+  "homepage": "https://newo.ai",
+  "keywords": [
+    "newo",
+    "voice-ai",
+    "mcp",
+    "agents",
+    "telephony"
+  ],
+  "icon": "./assets/icon.svg",
+  "documentationUrl": "https://help.newo.ai/en/collections/17890660-support",
+  "supportUrl": "https://help.newo.ai/en/collections/17890660-support",
+  "privacyPolicyUrl": "https://newo.ai/privacy-policy",
+  "termsOfServiceUrl": "https://newo.ai/terms-of-service",
+  "metadata": {
+    "category": "Developer Tools",
+    "brandColor": "#145B64",
+    "logo": "./assets/logo.svg",
+    "longDescription": "Ten skills cover agent creation, configuration, Python WASM development, knowledge, integrations, sandbox testing, diagnostics and rollout. The development guide covers event handlers, SDK actions, and migration from legacy code. The external MCP skill configures a customer connector and, for OAuth2, creates a local project for authorization and result events. Full customer UAT for this package is pending. Uses the user's language and defaults to English. For support, contact support@newo.ai.",
+    "executionPolicy": "customer_mcp_only"
+  }
+}
