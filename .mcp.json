@@ -6,24 +6,7 @@
       "oauth": {
         "clientId": "g2t0mUwvyASY6OC9F76xvNBSFfZjSyfe",
         "callbackPort": 8765,
-        "callbackUrl": "http://localhost:8765/callback"
-      },
-      "extensions": {
-        "com.openai": {
-          "auth": {
-            "type": "oauth",
-            "client": {
-              "mode": "provided",
-              "clientId": "g2t0mUwvyASY6OC9F76xvNBSFfZjSyfe",
-              "tokenEndpointAuthMethod": "none"
-            },
-            "authorizationServerBase": "https://auth.newo.ai/",
-            "authorizationUrl": "https://auth.newo.ai/authorize",
-            "tokenUrl": "https://auth.newo.ai/oauth/token",
-            "resource": "https://api.newo.ai/api/v1/customer-mcp",
-            "baseScopes": ["openid", "offline_access"]
-          }
-        }
+        "scopes": "openid offline_access"
       }
     }
   }
