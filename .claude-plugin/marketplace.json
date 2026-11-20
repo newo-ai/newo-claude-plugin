@@ -1,0 +1,24 @@
+{
+  "name": "newo",
+  "owner": {
+    "name": "Alex",
+    "email": "support@newo.ai",
+    "url": "https://newo.ai"
+  },
+  "description": "Newo plugins for Claude Code. Build, configure, test and launch Newo voice and chat agents through Customer MCP.",
+  "plugins": [
+    {
+      "name": "newo-agent-builder",
+      "source": "./",
+      "description": "Create, configure, develop, test and launch Newo agents through Customer MCP. Develop Python WASM skills and connect external MCP servers.",
+      "category": "Developer Tools",
+      "tags": [
+        "newo",
+        "voice-ai",
+        "mcp",
+        "agents",
+        "telephony"
+      ]
+    }
+  ]
+}
