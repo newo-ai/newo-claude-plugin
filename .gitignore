@@ -1,0 +1,5 @@
+# OS metadata files: the Claude plugin directory blocks a submission that contains them
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/
